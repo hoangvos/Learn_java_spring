@@ -32,12 +32,12 @@ Welcome to the Learn Java Spring project! This repository helps you learn the ba
 
 ## Project Structure
 - Backend (Spring Boot)
--- Model: Defines the Product entity.
--- Repository: Interface for database operations.
--- Service: Contains business logic.
--- Controller: Handles HTTP requests.
+   - Model: Defines the Product entity.
+   - Repository: Interface for database operations.
+   - Service: Contains business logic.
+   - Controller: Handles HTTP requests.
 - Frontend (React)
--- Components and pages to interact with the backend API.
+   - Components and pages to interact with the backend API.
 ## API Endpoints
 - GET /products - Retrieve all products
 - GET /products/product/{name} - Retrieve a product by name
